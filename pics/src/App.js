@@ -1,9 +1,14 @@
 import { useState } from "react";
+import SearchBar from "./components/SearchBar";
 
 function App() {
+  const handleSubmit = (term) => {
+    console.log("Do a search with", term);
+  };
+
   return (
     <div>
-      <h1>Start me in!</h1>
+      <SearchBar onSubmit={handleSubmit} />
     </div>
   );
 }
