@@ -1,10 +1,9 @@
 import axios from "axios";
-import ApiKey from "./components/ApiKey";
 
 const searchImages = async (term) => {
   const response = await axios.get("https://api.unsplash.com/search/photos", {
     headers: {
-      Authorization: `Client-ID ${ApiKey}`,
+      Authorization: "Client-ID x9iU87gnciMscCAOb9pylDDcN5bCixZIXBSu8IrpLPM",
     },
     params: {
       query: term,
@@ -13,4 +12,5 @@ const searchImages = async (term) => {
   console.log(response);
   return response.data.results;
 };
+
 export default searchImages;
