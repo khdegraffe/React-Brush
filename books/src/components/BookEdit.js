@@ -1,4 +1,4 @@
-function BookEdit() {
+function BookEdit({ book }) {
   return <div>BookEdit</div>;
 }
 
