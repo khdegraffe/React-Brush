@@ -1,40 +1,28 @@
-import { GoBell, GoEyeClosed } from "react-icons/go";
-import { FaLinkedin } from "react-icons/fa";
-import Button from "./components/Button";
+import Accordion from "./components/Accordion";
+import ButtonPage from "./pages/buttonPage";
 
 function App() {
-  return (
-    <div>
-      <div>
-        <Button primary rounded>
-          <GoBell />
-          Hello?
-        </Button>
-      </div>
-      <div>
-        <Button secondary outline>
-          <GoEyeClosed />
-          Is anyone there?
-        </Button>
-      </div>
-      <div>
-        <Button success>
-          <FaLinkedin />
-          ...anybody??
-        </Button>
-      </div>
-      <div>
-        <Button warning outline>
-          Tailwind Baby!!
-        </Button>
-      </div>
-      <div>
-        <Button danger rounded outline>
-          Classes for Days
-        </Button>
-      </div>
-    </div>
-  );
+  const items = [
+    {
+      key: 1234,
+      label: "Can I use React?",
+      content: "You can indeed, You can indeed, You can indeed, You can indeed",
+    },
+    {
+      key: 4321,
+      label: "Can I use JavaScript?",
+      content:
+        "You can indeed, You can indeed, You can indeed, You can indeed, You can indeed",
+    },
+    {
+      key: 8976,
+      label: "Can I use CSS?",
+      content:
+        "You can indeed, You can indeed, You can indeed, You can indeed, You can indeed",
+    },
+  ];
+
+  return <Accordion items={items} />;
 }
 
 export default App;
