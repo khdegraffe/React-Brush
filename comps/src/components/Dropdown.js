@@ -50,8 +50,6 @@ function Dropdown({ options, value, onChange }) {
 
   return (
     <div ref={divEl} className="w-48 relative">
-      <h1>Select A Color!</h1>
-
       <Panel
         className="flex justify-between items-center cursor-pointer"
         onClick={handleClick}
