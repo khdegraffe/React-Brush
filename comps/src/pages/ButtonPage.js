@@ -3,9 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Button from "../components/Button";
 
 function ButtonPage() {
-  const handleClick = () => {
-    console.log("CLICKED");
-  };
+  const handleClick = () => {};
 
   return (
     <div>
