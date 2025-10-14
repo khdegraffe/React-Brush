@@ -13,6 +13,47 @@
       "id": 4
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Rustic Soft Tuna",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Luxurious Soft Chips",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Practical Concrete Car",
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "title": "Fantastic Wooden Table",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "title": "Gorgeous Steel Gloves",
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "title": "Incredible Cotton Salad",
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "title": "Small Cotton Salad",
+      "id": 17
+    }
+  ],
   "photos": []
 }
