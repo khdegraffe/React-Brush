@@ -1,3 +1,3 @@
 # React-Brush
 
-Various react projects I have built!
+Various react projects I have built! React is fun :)
